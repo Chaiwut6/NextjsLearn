@@ -1,6 +1,8 @@
+import Form from "@/components/Form"
+
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <div><Form /></div>
   )
 }
 export default Homepage
