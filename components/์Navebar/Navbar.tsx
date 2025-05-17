@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import DropdownList from "./DropdownList";
 const Navbar = () => {
   return (
     <nav className="flex flex-col sm:flex-row justify-between m-5">
@@ -17,6 +17,7 @@ const Navbar = () => {
       <div className="flex flex-col sm:flex-row gap-4 pb-4">
           <input type="text" placeholder="Seach"
           />
+          <DropdownList />
       </div>
 
       {/* <div className="flex flex-col sm:flex-row gap-4 ">
