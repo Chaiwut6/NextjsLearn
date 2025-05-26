@@ -13,7 +13,7 @@ const link = [
     {href:"/Home", label:"Home"},
     {href:"/about", label:"About"},
     {href:"/info", label:"Info"},
-        
+    {href:"/camp/create", label:"Create Landmark"},   
 ]
 
 
