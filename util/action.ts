@@ -12,3 +12,10 @@ export const createHome = async(Data:any) =>{
     console.log(title);
     
 }
+
+export const createLanmark = async(Data:any) =>{
+    getAuthUser()
+    const title = Data.get('LanmarkName')
+    console.log(title);
+    
+}

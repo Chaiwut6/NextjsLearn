@@ -1,4 +1,4 @@
-"use client";
+
 import { createHome } from "@/util/action";
 import Formcontainer from "./Form/Formcontainer";
 
@@ -17,8 +17,6 @@ const Form = () => {
         <button type="submit">Submit</button>
       
       </Formcontainer>
-
-
     </div>
   );
 };

@@ -1,6 +1,11 @@
-const Formcontainer = ({action,children}:{children:React.ReactNode}) => {
+type actionFunction =(
+  prevState:any,
+  FormData:FormData
+)=>Promise<{message:string}>
+
+const Formcontainer = ({action,children}:{action:actionFunction, children:React.ReactNode}) => {
   return (
-  <form action={action}>
+  <form action = {action}>
     {children}
   </form>
   )
