@@ -2,6 +2,7 @@ import Catagoryinput from "@/components/Form/Catagoryinput";
 import Formcontainer from "@/components/Form/Formcontainer";
 import ProvinceInput from "@/components/Form/ProvinceInput";
 import TextAreainput from "@/components/Form/TextAreainput";
+import MapLandmark from "@/components/map/MapLandmark";
 
 import { createLanmark } from "@/util/action";
 const CreateCamp = () => {
@@ -32,6 +33,8 @@ const CreateCamp = () => {
             <ProvinceInput />
           </div>
 
+            <MapLandmark />
+            
           <button type="submit">Submit</button>
         </Formcontainer>
       </div>
